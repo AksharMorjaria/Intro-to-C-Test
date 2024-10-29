@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+
+    cout << "       O      O       _____________       " << endl;
+    cout << "      /|\\----/|\\     /             \\____  " << endl;
+    cout << "      / \\    / \\    / |         |    \\  | " << endl;
+    cout << "      /   \\  /   \\  |  |___________ |_____|" << endl;
+    cout << "                         --0-------O--'    " << endl;
+    cout << " ---------------------------------------------" << endl;
+    cout << endl;
+
+
+    return 0;
+}    

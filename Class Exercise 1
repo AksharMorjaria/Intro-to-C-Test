@@ -1,0 +1,23 @@
+#include <iostream>   
+using namespace std;
+
+int main() {
+    //Declare variables
+    int length;   
+    int width;    
+    int area;     
+
+    // Prompt user for input and read values
+    cout << "Enter the length of the rectangle: ";
+    cin >> length;    
+
+    cout << "Enter the width of the rectangle: ";
+    cin >> width;     
+    // Program logic to calculate the area
+    area = length * width;
+
+    //  Output the result
+    cout << "The area of the rectangle is: " << area << endl;
+
+    return 0;   
+}
